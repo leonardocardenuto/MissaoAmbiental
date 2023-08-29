@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    cursor: context-menu;
+}
+
+nav {
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+}
+
+nav a {
+    color: #000000;
+    font: 400 16px 'Inter', sans-serif;
+    position: relative;
+    display: inline-block;
+    vertical-align: auto;
+    margin: 22px;
+}
+
+#main{
+    border-bottom: 3px solid rgb(98, 162, 1);
+    cursor: pointer;
+    line-height: 1.5;
+}
+
+
+nav a:not(.exclude-link,#main):hover {
+    border-bottom: 3px solid rgb(98, 162, 1);
+    cursor: pointer;
+    line-height: 1.5;
+}
+
+#icon {
+    vertical-align: middle;
+    width: 130px;
+    margin-bottom: 10px;
+    margin-top: 4px;
+    margin-left: 0;
+}
+
+#doacao {
+    border-radius: 50px;
+    background-color: rgb(41, 235, 2);
+    height: 30px;
+    width: 70px;
+    overflow: visible;
+    margin-left: 0;
+}
+
+#magnifying-glass {
+    vertical-align: middle;
+    margin-left: 15px;
+    z-index: -1;
+}
+
+.images-transition {
+    position: relative;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+div.images-transition img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    margin: 0;
+}
+
+.overlay-img {
+    position: absolute;
+    z-index: 0;
+    width: 20px;
+    right: 3%;
+    top: 60%;
+    transform: translateY(800%);
+}
+
+.overlay-img img {
+    width: 200%;
+    z-index: 0;
+}
+
+.overlay-img-left {
+    position: absolute;
+    z-index: 0;
+    width: 20px;
+    left: 3%;
+    top: 60%;
+    transform: translateY(800%);
+}
+
+.overlay-img-left img {
+    width: 200%;
+    z-index: 0;
+    transform: rotate(180deg);
+}
+#search {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.custom-input {
+    border: 0;
+    outline: 0;
+    width: 0;
+    line-height: 40px;
+    transition: width 0.7s linear;
+    max-width: 300px;
+    background-color: white;
+}
+
+#search:hover > .custom-input {
+    padding: 0 10px;
+    width: 120%; 
+    transition: width 0.4s linear;
+}
+
+
