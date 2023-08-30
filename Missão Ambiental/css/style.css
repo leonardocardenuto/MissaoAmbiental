@@ -108,7 +108,8 @@ div.images-transition img {
     vertical-align: middle;
     background-color: white;
     border-radius: 30px;
-    padding: 10px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .custom-input {
@@ -122,22 +123,8 @@ div.images-transition img {
 }
 
 #single-search:hover > .custom-input {
-    padding: 0 10px;
     width: 400%; 
     transition: width 0.4s linear;
-}
-
-#single-search:hover > .icon-area {
-    background: white;
-    color: #262626;
-}
-
-.icon-area {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
 }
