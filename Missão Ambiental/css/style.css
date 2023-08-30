@@ -22,14 +22,13 @@ nav a {
     margin: 22px;
 }
 
-#main{
+nav a:not(.exclude-link,#start-point):hover {
     border-bottom: 3px solid rgb(98, 162, 1);
     cursor: pointer;
     line-height: 1.5;
 }
 
-
-nav a:not(.exclude-link,#main):hover {
+#start-point{
     border-bottom: 3px solid rgb(98, 162, 1);
     cursor: pointer;
     line-height: 1.5;
@@ -48,7 +47,6 @@ nav a:not(.exclude-link,#main):hover {
     background-color: rgb(41, 235, 2);
     height: 30px;
     width: 70px;
-    overflow: visible;
     margin-left: 0;
 }
 
@@ -104,7 +102,7 @@ div.images-transition img {
     z-index: 0;
     transform: rotate(180deg);
 }
-#search {
+#single-search {
     display: inline-flex;
     align-items: center;
     vertical-align: middle;
@@ -118,15 +116,28 @@ div.images-transition img {
     outline: 0;
     width: 0;
     line-height: 40px;
-    transition: width 0.7s linear;
-    max-width: 300px;
+    transition: width 0.4s linear;
+    max-width: 200px;
     background-color: white;
 }
 
-#search:hover > .custom-input {
+#single-search:hover > .custom-input {
     padding: 0 10px;
-    width: 120%; 
+    width: 400%; 
     transition: width 0.4s linear;
 }
 
+#single-search:hover > .icon-area {
+    background: white;
+    color: #262626;
+}
 
+.icon-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+}
