@@ -20,7 +20,7 @@ body {
 }
 
 #background-image {
-    background-image: url('../images/Plantas.png');
+    background-image: url('../images/abelhas.png');
     background-size: cover;
     background-position: center top;
     height: 400vh; 
@@ -76,7 +76,7 @@ p {
     margin-left: 0px;
     margin-right: 40px;
     padding: 0px;
-    margin-top: 90px;
+    margin-top: 0px;
 }
 
 .boxes-img:not(:first-child){
