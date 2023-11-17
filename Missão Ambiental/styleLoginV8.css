@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.corpo{
+    background: linear-gradient(#5B8A5A, #96CF91); 
+    font-family: 'Poppins', sans-serif;
+}
+.propriedadeQuadrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.borda{
+    border-radius: 40px;
+    padding: 3%;
+    background-color: #E8E8E8;
+}
+.Bv{
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+.Entrar{
+    font-size: 60px;
+    margin: 0px;
+}
+.formulario{
+    margin-top: 5%;
+}
+.formulario input{
+    margin: 10px;
+    margin-left: 0px;
+    border: 0;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+}
+.formulario ::placeholder{
+    color: black;
+}
+.formulario button{
+    border-radius: 15px;
+    background-color: #60905F;
+    border-color: black;
+    color: black;
+}
+.formulario button:hover{
+    border-color: black;
+}
+.semConta{
+    text-align: center;
+}
+.imagem{
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .imagem {
+        display: none;
+    }
+}
