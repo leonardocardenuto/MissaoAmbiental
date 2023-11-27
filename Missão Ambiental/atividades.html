@@ -6,162 +6,193 @@
         <title>Missão Ambiental</title>
         <!-- Bootstrap CSS -->
         <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
             rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
             crossorigin="anonymous">
         <!-- Custom CSS -->
         <link rel="stylesheet" href="./css/atividades.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <!-- Navbar -->
-            <button onclick="CheckWidht();">CHECK</button>
-        </nav>
-        <div id="background-image" class="container-fluid">
-            <h1 class="text-center mt-4">Atividades</h1>
-            <p id="p-atividades" class="text-center mb-4">Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in</p>
-            <section id="agroecologia">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="boxes-img"></div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="boxes-text">
-                            <p id="desc-atividade">AGROECOLOGIA</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                                sunt in</p>
+        <header
+            class="row container-fluid mb-auto border align-items-center justify-content-center">
+            <a class="navbar-logo nav-link" href="index.html">
+                <img src="./images/imgLogo.png" width="100" height="100" alt="">
+                Missão Ambiental
+            </a>
+            <a class="nav-link d-inline" href="index.html">
+                INÍCIO
+            </a>
+            <div class="linhaVerticalNav"></div>
+            <a class="nav-link d-inline" href="#">
+                QUEM SOMOS
+            </a>
+            <div class="linhaVerticalNav"></div>
+            <a class="nav-link d-inline" href="#">
+                CONTATO
+            </a>
+            <a class="text-decoration-none" href="telaLoginV8.html">
+                <button class="nav-link rounded-pill botaoVerde">
+                    ENTRAR
+                </button>
+            </a>
+        </header>
+        <main>
+            <div id="background-image" class="container-fluid">
+                <h1 class="text-center mt-4">Atividades</h1>
+                <p id="p-atividades" class="text-center mb-4">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in</p>
+                <section id="agroecologia">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="boxes-img"></div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="boxes-text">
+                                <p id="desc-atividade">AGROECOLOGIA</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                    sunt in</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <section id="compostagem">
-                <div id="inverse" class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="boxes-text">
-                            <p id="desc-atividade">COMPOSTAGEM</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                                sunt in</p>
+                </section>
+                <section id="compostagem">
+                    <div id="inverse" class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="boxes-text">
+                                <p id="desc-atividade">COMPOSTAGEM</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                    sunt in</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="boxes-img"></div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="boxes-img"></div>
-                    </div>
-                </div>
-            </section>
-            <section id="captacao">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="boxes-img"></div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="boxes-text">
-                            <p id="desc-atividade-g">CAPTAÇÃO DE ÁGUA DA CHUVA</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                                sunt in culpa qui officia deserunt mollit anim id est laborum. Comunitária</p>
+                </section>
+                <section id="captacao">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="boxes-img"></div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="boxes-text">
+                                <p id="desc-atividade-g">CAPTAÇÃO DE ÁGUA DA CHUVA</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                    sunt in culpa qui officia deserunt mollit anim id est laborum. Comunitária</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <section id="reciclagem">
-                <div id="inverse" class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="boxes-text">
-                            <p id="desc-atividade-m">MATERIAIS RECICLÁVEIS</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                                sunt in culpa qui officia deserunt mollit anim id est laborum. Comunitária</p>
+                </section>
+                <section id="reciclagem">
+                    <div id="inverse" class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="boxes-text">
+                                <p id="desc-atividade-m">MATERIAIS RECICLÁVEIS</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                    sunt in culpa qui officia deserunt mollit anim id est laborum. Comunitária</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="boxes-img"></div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="boxes-img"></div>
-                    </div>
-                </div>
-            </section>
-            <section id="oficinas">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="boxes-img"></div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="boxes-text">
-                            <p id="desc-atividade-l">OFICINAS</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                                sunt in culpa qui officia deserunt mollit anim id est laborum. Comunitária</p>
+                </section>
+                <section id="oficinas">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="boxes-img"></div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="boxes-text">
+                                <p id="desc-atividade-l">OFICINAS</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                    sunt in culpa qui officia deserunt mollit anim id est laborum. Comunitária</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <section id="projetos">
-                <div id="inverse" class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="boxes-text">
-                            <p id="desc-atividade-md">PROJETOS INTERBAIRROS</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                                sunt in culpa qui officia deserunt mollit anim id est laborum. Comunitária</p>
+                </section>
+                <section id="projetos">
+                    <div id="inverse" class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="boxes-text">
+                                <p id="desc-atividade-md">PROJETOS INTERBAIRROS</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                    sunt in culpa qui officia deserunt mollit anim id est laborum. Comunitária</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="boxes-img"></div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="boxes-img"></div>
-                    </div>
-                </div>
-            </section>
-            <footer>
-                <div id="div-mainf">
-                    <p class="main-footer">Termos de Privacidade</p>
-                    <p class="main-footer">Sobre nós</p>
-                    <p class="main-footer">Fale Conosco</p>
-                    <p class="main-footer">Doe Agora</p>
-                    <div id="rect"></div>
-                    <p class="main-f">Nossas redes<br>
-                        sociais:</p>
-                    <div>
-                        <img id="face" src="./images/facebook.png">
-                        <img id="insta" src="./images/instagram.png">
-                    </div>
-                </div>
-                <div id="div-unique">
-                    <p id="unique-text">A Missão Ambiental é uma instituição sem fins lucrativos.
-                        Missão Ambiental © 2023 Todos os Direitos Reservados.</p>
-                </div>
-            </footer>
-            <!-- Bootstrap JavaScript -->
-            <script
-                src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-                integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-                crossorigin="anonymous"></script>
-            <script
-                src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-                integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-                crossorigin="anonymous"></script>
-            <script src="js/script.js"></script>
-        </body>
-    </html>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="row container-fluid justify-content-around footer">
+               <a href="" class="align-self-center mt-5 linksFooter">Termos de Privacidade</a>
+               <a href="" class="align-self-center mt-5 linksFooter">Sobre Nós</a>
+               <a href="" class="align-self-center mt-5 linksFooter">Fale Conosco</a>
+               <a href="" class="align-self-center mt-5 linksFooter">Doe Agora</a>
+               <div class="linhaVertical align-self-center mt-5"></div>
+               <p class="textoFooter align-self-center mt-5">Nossas redes<br>sociais:
+               </p>
+               <a
+                  href="https://web.facebook.com/missaoambiental.org/?_rdc=1&_rdr"
+                  class="align-self-center mt-5">
+               <img src="./images/facebook.png" alt="" class="logosFooter">
+               </a>
+               <a
+                  href="https://instagram.com/missao.ambiental?igshid=OGQ5ZDc2ODk2ZA=="
+                  class="align-self-center mt-5">
+               <img src="./images/instagram.png" alt="" class="logosFooter">
+               </a>
+            </div>
+            </div>
+            <div class="row container-fluid justify-content-start footer">
+               <p class="direitosReservados ml-4 align-self-end">
+                  A Missão Ambiental é uma instituição sem fins lucrativos. Missão Ambiental ©
+                  2023 Todos os Direitos Reservados.
+               </p>
+            </div>
+        </footer>
+        <!-- Bootstrap JavaScript -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
