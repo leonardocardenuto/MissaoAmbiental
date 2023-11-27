@@ -1,119 +1,239 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Missao Ambiental</title>
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-</head>
-<body>
-    <header class="container-fluid mb-auto border align-items-center">
-        <div class="row justify-content-center">
-            <nav class="nav align-items-center">
-                <div class="">
-                    <a class="navbar-logo nav-link" href="index.html">
-                        <img src="./images/imgLogo.jpeg" width="100" height="100" alt="">
-                        Missão Ambiental
-                    </a>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Missao Ambiental</title>
+        <link rel="stylesheet" href="./css/index.css">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous">
+    </head>
+    <body>
+        <header
+            class="row container-fluid mb-auto border align-items-center justify-content-center">
+            <a class="navbar-logo nav-link" href="index.html">
+                <img src="./images/imgLogo.png" width="100" height="100" alt="">
+                Missão Ambiental
+            </a>
+            <a class="nav-link d-inline" href="index.html">
+                INÍCIO
+            </a>
+            <div class="linhaVerticalNav"></div>
+            <a class="nav-link d-inline" href="#">
+                QUEM SOMOS
+            </a>
+            <div class="linhaVerticalNav"></div>
+            <a class="nav-link d-inline" href="#">
+                CONTATO
+            </a>
+            <a class="text-decoration-none" href="telaLoginV8.html">
+                <button class="nav-link rounded-pill botaoVerde">
+                    ENTRAR
+                </button>
+            </a>
+        </header>
+
+        <main>
+            <div class="row container-fluid justify-content-around">
+                <div class="col textDoar ml-5 texto align-self-center">
+                    <p>Texto sobre doações</p><br><br><br>
+                    <button class="doar rounded botaoVerde">DOAR</button>
                 </div>
-                <div class="align-items-center">
-                    <a class="nav-link d-inline" href="index.html">INÍCIO</a>
-                    <a href="#">|</a>
-                    <a class="nav-link d-inline" href="#">QUEM SOMOS</a>
-                    <a href="#">|</a>
-                    <a class="nav-link d-inline" href="#">CONTATO</a>
-                    <a href="telaLoginV8.html"><button class="nav-link rounded-pill d-inline botaoVerde">ENTRAR</button></a>
+                <div class="col mt-4 imagemDoar img-fluid">
+                    <img src="./images/imgDoar.png" class="img-fluid" alt="#" width="700">
                 </div>
-            </nav>
-        </div>
-    </header>
+            </div>
+            <div class="row mt-2 container-fluid justify-content-around">
+                <div class="col img-fluid">
+                    <img
+                        src="./images/imgPessoal.png"
+                        class="rounded img-fluid"
+                        alt="#"
+                        width="900px">
+                </div>
+                <div class="col texto align-self-center">
+                    <h1>QUEM SOMOS NÓS?</h1>
+                    <p>
+                        A Missão Ambiental é uma associação civil sem fins lucrativos que cria espaços
+                        de preservação e convivência para a comunidade de vida na Terra buscando
+                        garantir a otimização dos recursos ambientais com produção de alimentos e
+                        regeneração do solo, incentiva a participação dos moradores do entorno e busca
+                        parceiros locais para realizar suas atividades .
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-5 container-fluid justify-content-center">
+                <h1>NOSSAS ATIVIDADES</h1>
+            </div>
+            <div class="row mt-5 container-fluid justify-content-around">
+                <a href="atividades.html#agroecologia">
+                    <button class="botaoAtividade">
+                        <img src="./images/imgAgroecologia.png" alt="" class="imgAtividades mr-4">
+                        Agroecologia
+                    </button>
+                </a>
+                <a href="atividades.html#compostagem">
+                    <button class="botaoAtividade">
+                        <img src="./images/imgCompostagem.png" alt="" class="imgAtividades mr-4">
+                        Compostagem
+                    </button>
+                </a>
+                <a href="atividades.html#captacao">
+                    <button class="botaoAtividade">
+                        <img src="./images/imgCaptacaoChuva.png" alt="" class="imgAtividades mr-4">
+                        Captação da Chuva
+                    </button>
+                </a>
+            </div>
+            <div class="row mt-5 container-fluid justify-content-around">
+                <a href="atividades.html#reciclagem">
+                    <button class="botaoAtividade">
+                        <img src="./images/imgMatReciclaveis.png" alt="" class="imgAtividades mr-2">
+                        Materiais Recicláveis
+                    </button>
+                </a>
+                <a href="atividades.html#oficinas">
+                    <button class="botaoAtividade">
+                        <img src="./images/imgOficinas.png" alt="" class="imgAtividades mr-5">
+                        Oficinas
+                    </button>
+                </a>
+                <a href="atividades.html#projetos">
+                    <button class="botaoAtividade">
+                        <img src="./images/imgProgInterrbarrais.png" alt="" class="imgAtividades mr-2">
+                        Projetos Interbarrais
+                    </button>
+                </a>
+            </div>
 
-    <main>
-        <div class="row container-fluid justify-content-around">
-            <div class="col ml-5 texto align-self-center">
-                Texto sobre doações<br><br><br>
-                <button class="doar rounded botaoVerde">DOAR</button>
+            <div class="row mt-5 container-fluid justify-content-center">
+                <h1>ESPECÍES</h1>
             </div>
-            <div class="col mt-4 imagemDoar img-fluid">
-                <img src="./images/imgDoar.png" class="img-fluid" alt="#" width="700">
-            </div>
+
+            <div class="botoesEspecies row mt-5 container-fluid justify-content-around">
+                <a href="abelhas.html">
+                    <button class="botaoEspecies">
+                        Espécies de Abelhas
+                        <br>
+                        <img src="./images/imgEspecieAbelha.png" alt="" class="imgEspecies mt-4">
+                    </button>
+                </a>
+            <!-- <svg class="primeiroElemento" xmlns="http://www.w3.org/2000/svg"
+            width="234" height="243" viewBox="0 0 234 243" fill="none"> <path d="M168.824
+            24.7394C185.436 45.9708 255 166.032 226.5 213.032C198 260.032 79.4411 238.188
+            58.7513 228.142C38.0614 218.096 4.86344 198.914 1.10716 164.296C-2.64912 129.678
+            32.1071 81.296 32.1071 81.296C32.1071 81.296 80.186 13.4397 97.3143
+            5.63767C114.443 -2.16434 132.6 1.65003 137.563 2.87609C142.526 4.10215 152.212
+            3.50792 168.824 24.7394Z" fill="#C6E5BA" stroke="#C6E5BA"/> </svg> -->
+            <a href="plantas.html">
+                <button class="botaoEspecies">
+                    Espécies de Plantas
+                    <img src="./images/imgEspeciePlantas.png" alt="" class="imgEspecies mt-4">
+                </button>
+            </a>
+            <!-- <svg class="segundoElemento" xmlns="http://www.w3.org/2000/svg" width="161"
+            height="205" viewBox="0 0 161 205" fill="none"> <path d="M159.31 133.282C161.575
+            176.693 153.327 199.245 125.72 203.787C98.1132 208.329 44.679 178.346 44.679
+            178.346L1.35323 8.1666C1.58055 7.92772 1.86154 7.75057 2.19818 7.6376C20.2264
+            1.58734 34.4331 -3.09636 60.1569 7.67863C85.8806 18.4536 121.82 56.1314 121.82
+            56.1314C121.82 56.1314 157.044 89.8704 159.31 133.282Z" fill="#E3E193"
+            stroke="#E3E193"/> </svg> -->
         </div>
-        <div class="row mt-2 container-fluid justify-content-around">
-            <div class="col img-fluid">
-                <img src="./images/imgPessoal.png" class="rounded img-fluid" alt="#" width="900px">
-            </div>
-            <div class="col texto align-items-center align-self-center">
-                <p class="subtitulo">
-                    QUEM SOMOS NÓS?
+
+        <div class="row mt-5 container-fluid justify-content-center">
+            <h1>UNIDADES</h1>
+        </div>
+
+        <div class="row mt-5 container-fluid justify-content-around">
+            <div class="unidades align-self-center">
+                <p>
+                    TEXTO SOBRE A UNIDADE
                 </p>
-                <p class="texto">
-                    A Missão Ambiental é uma associação civil sem fins lucrativos que cria espaços de preservação e convivência para a comunidade de vida na Terra buscando garantir a otimização dos recursos ambientais com produção de alimentos e regeneração do solo, incentiva a participação dos moradores do entorno e busca parceiros locais para realizar suas atividades . 
-                </p>
+            </div>
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.3426961824334!2d-46.61611342526415!3d-23.59203956271879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5b36975b7625%3A0x69aeac37903cc961!2sMISS%C3%83O%20AMBIENTAL%20-%20PORTARIA%2001!5e0!3m2!1spt-BR!2sbr!4v1700933028539!5m2!1spt-BR!2sbr"
+                    width="400"
+                    height="300"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-        <div class="row mt-5 container-fluid justify-content-center subtitulo">
-            NOSSAS ATIVIDADES
-        </div>
-        <div class="row mt-5 container-fluid justify-content-around">
-            <button class="botaoAtividade"></button>
-            <button class="botaoAtividade"></button>
-            <button class="botaoAtividade"></button>
-        </div>
-        <div class="row mt-5 container-fluid justify-content-around">
-            <button class="botaoAtividade rounded"></button>
-            <button class="botaoAtividade rounded"></button>
-            <button class="botaoAtividade rounded"></button>
+
+        <div
+            class="row mt-5 container-fluid justify-content-center text-center subtitulo">
+            <h1>VOLUNTÁRIOS E PARCEIROS FANTÁSTICOS</h1>
         </div>
 
-        <div class="row mt-5 container-fluid justify-content-center subtitulo">
-            ESPECÍES
-        </div>
+        <div class="row mt-2 container-fluid justify-content-center text-center texto">
+            <p>
+                TEXTO SOBRE OS PATROCINADORES
+            </p>
 
-        <div class="row mt-5 container-fluid justify-content-around">
-            <button class="botaoEspecies rounded">
-                <img src="" alt="">
-            </button>
-            <button class="botaoEspecies rounded">
-                <img src="" alt="">
-            </button>
-        </div>
-
-        <div class="row mt-5 container-fluid justify-content-center subtitulo">
-            VOLUNTÁRIOS E PARCEIROS FANTÁSTICOS
-        </div>
-
-        <div class="row mt-2 container-fluid justify-content-center texto">
-            TEXTO SOBRE OS PATROCINADORES
         </div>
 
         <div class="row mt-4 container-fluid justify-content-around align-items-center">
-            <div class="img-fluid">
-                <img src="./images/imgPatrocinadorFunsai.png" alt="" class="funsai img-fluid">
-            </div>
-            <div class="img-fluid">
-                <img src="./images/imgPatrocinadorICC.png" alt="" class="ICC img-fluid">
-            </div>
+            <img src="./images/imgPatrocinadorFunsai.png" alt="" class="funsai img-fluid">
+            <img src="./images/imgPatrocinadorICC.png" alt="" class="ICC img-fluid">
         </div>
         <div class="row container-fluid justify-content-around align-items-center">
             <img src="./images/imgPatrocinadorAquario.png" alt="" class="aquario img-fluid">
-            <img src="./images/imgPatrocinadorEscolaComunitaria.png" alt="" class="escolaComunitaria img-fluid">  
-            <img src="./images/imgPatrocinadorSempreSustentavel.png" alt="" class="sempreSustentavel img-fluid">
-            <img src="./images/imgPatrocinadorMudaIpiranga.png" alt="" class="mudaIpiranga img-fluid">
+            <img
+                src="./images/imgPatrocinadorEscolaComunitaria.png"
+                alt=""
+                class="escolaComunitaria img-fluid">
+            <img
+                src="./images/imgPatrocinadorSempreSustentavel.png"
+                alt=""
+                class="sempreSustentavel img-fluid">
+            <img
+                src="./images/imgPatrocinadorMudaIpiranga.png"
+                alt=""
+                class="mudaIpiranga img-fluid">
         </div>
-        <div class="row container-fluid justify-content-around align-items-center">
+        <div class="row mb-4 container-fluid justify-content-around align-items-center">
             <img src="./images/imgPatrocinadorSOS.png" alt="" class="sos img-fluid">
-            <img src="./images/imgPatrocinadorOrquidea.png" alt="" class="orquidea img-fluid">
+            <img
+                src="./images/imgPatrocinadorOrquidea.png"
+                alt=""
+                class="orquidea img-fluid">
             <img src="./images/imgPatrocinadorCades.png" alt="" class="cades img-fluid">
         </div>
+
     </main>
-    <footer class="footer">
-        <div class="row container-fluid justify-content-around align-items-center">
-            <a href="" class=""></a>
+    <footer>
+        <div class="row container-fluid justify-content-around footer">
+            <a href="" class="align-self-center mt-5 linksFooter">Termos de Privacidade</a>
+            <a href="" class="align-self-center mt-5 linksFooter">Sobre Nós</a>
+            <a href="" class="align-self-center mt-5 linksFooter">Fale Conosco</a>
+            <a href="" class="align-self-center mt-5 linksFooter">Doe Agora</a>
+            <div class="linhaVertical align-self-center mt-5"></div>
+            <p class="textoFooter align-self-center mt-5">Nossas redes<br>sociais:
+            </p>
+            <a
+                href="https://web.facebook.com/missaoambiental.org/?_rdc=1&_rdr"
+                class="align-self-center mt-5">
+                <img src="./images/facebook.png" alt="" class="logosFooter">
+            </a>
+            <a
+                href="https://instagram.com/missao.ambiental?igshid=OGQ5ZDc2ODk2ZA=="
+                class="align-self-center mt-5">
+                <img src="./images/instagram.png" alt="" class="logosFooter">
+            </a>
         </div>
-    </footer>
+    </div>
+    <div class="row container-fluid justify-content-start footer">
+        <p class="direitosReservados ml-4 align-self-end">
+            A Missão Ambiental é uma instituição sem fins lucrativos. Missão Ambiental ©
+            2023 Todos os Direitos Reservados.
+        </p>
+    </div>
+</footer>
 </body>
 </html>
-
-
