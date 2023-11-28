@@ -57,23 +57,12 @@ button:hover{
     background-image: url('../images/Atividades.png');
     background-size: cover;
     background-position: center top;
-    height: 400vh; 
+    height: 320vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 5px;
     margin: 0px;
-}
-
-h1:not(header p) {
-    margin-top: -250px;
-    color: rgb(0, 0, 0);
-    font-family: 'Average', serif;
-    font-size: 70px;
-    line-height: normal;
-    text-align: center;
-    font-weight: 80;
 }
 
 p:not(header p) {
