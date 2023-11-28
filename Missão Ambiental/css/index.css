@@ -1,3 +1,7 @@
+#footer,header{
+    margin-left: 0!important;
+}
+
 /* Header */
 a:link {
     color: #000!important;
@@ -85,8 +89,9 @@ button:hover{
 }
 
 /* Body */
-body{
+body,html{
     background-color: #F9F9F9;
+    width: 100%;
 }
 
 p{
