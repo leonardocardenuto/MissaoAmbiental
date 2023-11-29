@@ -57,7 +57,7 @@ button:hover{
     background-image: url('../images/Atividades.png');
     background-size: cover;
     background-position: center top;
-    height: 320vh; 
+    height: 400vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
