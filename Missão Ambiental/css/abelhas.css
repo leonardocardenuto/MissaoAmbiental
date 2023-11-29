@@ -119,12 +119,40 @@ p:not(header,footer) {
     margin-top: 90px;
 }
 
-#img-inside{
+#arapua{
     border-radius:8px;
-    background-color: green;
+    background-color: rgb(241, 145, 145)!important;
     height: 275px;
-    width: 546px;
+    width: 544px;
     margin-left: 0.3px;
+    background-image: url("../images/imgEspecieAbelha.png");
+}
+
+#jatai{
+    border-radius:8px;
+    background-color: rgb(131, 130, 130);
+    height: 275px;
+    width: 544px;
+    margin-left: 0.3px;
+    background-image: url("../images/imgJatai.png");
+}
+
+#mandaguari{
+    border-radius:8px;
+    background-color: rgb(100, 201, 201);
+    height: 275px;
+    width: 544px;
+    margin-left: 0.3px;
+    background-image: url("../images/imgMandaguari.png");
+}
+
+#mirim{
+    border-radius:8px;
+    background-color: rgb(118, 146, 76);
+    height: 275px;
+    width: 544px;
+    margin-left: 0.3px;
+    background-image: url("../images/imgMirim.png");
 }
 
 #p-inside{
@@ -178,5 +206,18 @@ p:not(header,footer) {
     font-size: 13px;
 }
 
+.lang{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+    width: 105px;
+}
 
-
+.lang:before{
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url(https://flagsapi.com/BR/flat/32.png);
+}
