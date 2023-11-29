@@ -92,6 +92,66 @@ p:not(header p) {
     margin-right: 60px;
 }
 
+.agroecologia{
+    margin-top: 60px;
+    background-image: url("../images/imgAgroecologia.jpeg");
+    background-size:cover;
+    height: 350px;
+    width: 650px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.captacao{
+    margin-top: 60px;
+    background-image: url("../images/imgCaptacao.jpeg");
+    background-size:cover;
+    height: 350px;
+    width: 650px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.projetos{
+    margin-top: 60px;
+    background-image: url("../images/imgProjetos.jpeg");
+    background-size:cover;
+    height: 350px;
+    width: 650px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.reciclagem{
+    margin-top: 60px;
+    background-image: url("../images/imgReciclagem.jpeg");
+    background-size:cover;
+    height: 350px;
+    width: 650px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.compostagem{
+    margin-top: 60px;
+    background-image: url("../images/imgCompostagem.jpeg");
+    background-size:cover;
+    height: 350px;
+    width: 650px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.oficinas{
+    margin-top: 60px;
+    background-image: url("../images/imgOficinas.jpeg");
+    background-size:cover;
+    height: 350px;
+    width: 650px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
 .boxes-text {
     margin-top: 60px;
     height: 350px;
