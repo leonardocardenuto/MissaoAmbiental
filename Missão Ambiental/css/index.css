@@ -8,6 +8,10 @@ html {
     padding: 0;
 }
 
+body{
+    background-color: #f9f9f9!important;
+}
+
 /* Header */
 a:link {
     color: #000!important;
