@@ -119,12 +119,42 @@ p {
     margin-top: 90px;
 }
 
-#img-inside{
+#jaracatia{
     border-radius:8px;
-    background-color: green;
+    background-color: rgb(84, 167, 84);
     height: 275px;
     width: 546px;
     margin-left: 0.3px;
+    background-image: url("../images/imgJaracatia.png");
+}
+
+#jequitiba{
+    border-radius:8px;
+    background-color: rgb(84, 167, 84);
+    height: 275px;
+    width: 546px;
+    margin-left: 0.3px;
+    background-image: url("../images/imgEspeciePlantas.png");
+}
+
+
+#palmeira{
+    border-radius:8px;
+    background-color: rgb(84, 167, 84);
+    height: 275px;
+    width: 546px;
+    margin-left: 0.3px;
+    background-image: url("../images/imgPalmeira.png");
+}
+
+
+#uvaia{
+    border-radius:8px;
+    background-color: rgb(84, 167, 84);
+    height: 275px;
+    width: 546px;
+    margin-left: 0.3px;
+    background-image: url("../images/imgUvaia.png");
 }
 
 #p-inside{
