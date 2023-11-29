@@ -206,3 +206,341 @@ p {
     color: #F9F9F9;
     font-size: 13px;
 }
+
+#lang {
+    width: 78px;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 5px;
+    position:relative
+}
+
+#lang-en {
+    width: 80px;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 5px;
+    position:relative
+}
+
+#lang-en .selected-lang{
+    display: flex;   
+    justify-content: space-between;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+#lang .selected-lang{
+    display: flex;   
+    justify-content: space-between;
+    line-height: 2;
+    cursor: pointer;
+}
+
+#lang-en .selected-lang:before  {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(https://flagsapi.com/US/flat/32.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#lang .selected-lang:before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(https://flagsapi.com/BR/flat/32.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.selected-lang{
+    margin: 0!important;
+    padding: 0!important;
+}
+
+
+#lang ul,#lang-en ul {
+    padding: 0;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #f8f8f8;
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    right: 30px;
+    width: 125px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+#lang ul li,#lang-en ul li {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+#lang ul li a,#lang-en ul li a {
+    text-decoration: none;
+    width: 125px;
+    padding: 5px 10px;
+    display: block;
+}
+
+#lang ul li:hover,#lang-en ul li:hover {
+    background-color: #f2f2f2;
+}
+
+#lang ul li a:before,#lang-en ul li a:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#lang ul li a.en:before,#lang-en ul li a.en:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-image: url(https://flagsapi.com/US/flat/32.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#lang ul li a.br:before,#lang-en ul li a.br:before{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-image: url(https://flagsapi.com/BR/flat/32.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#lang:hover ul,#lang-en:hover ul {
+    display:block;
+}
+
+@media (min-width: 1400px) and (max-width: 2000px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Average&display=swap');
+
+#footer,header{
+    margin-left: 0!important;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+a:link {
+    color: #000!important;
+    text-decoration: none!important;
+}
+
+a:visited {
+    color: #000!important;
+    text-decoration: none!important;
+}
+
+a:hover {
+    color: #000!important;
+    text-decoration: none!important;
+}
+
+.navbar-logo{
+    color: #265917;
+    font-size: 16px;
+}
+
+.linhaVerticalNav{
+    height: 20px;/*Altura da linha*/
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    color: #000;
+}
+
+.botaoVerde {
+    color: #fff;
+    padding: 9px 25px;
+    background-color: #265917;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: #5DB256
+}
+
+#background-image {
+    background-image: url('../images/Plantas.png');
+    background-size: cover;
+    background-position: center top;
+    height: 220vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    margin: 0px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Average', serif;
+    font-size: 70px;
+    line-height: normal;
+    text-align: center;
+    font-weight: 80;
+}
+
+p {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #000;
+    font-family: 'Average', serif;
+    font-size: 16px;
+}
+
+#p-atividades{
+    margin-bottom: 50px;
+}
+
+.boxes-container {
+    display: flex;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 720px;
+    width: 450px;
+}
+
+.boxes-img{
+    width: 550px;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    border-style: outset;
+    border-radius:8px;
+    border-color: rgba(19, 19, 19, 0.252);
+    margin-bottom: 80px;
+}
+
+.boxes-img:not(:nth-child(2)){
+    margin-left: 0px;
+    margin-right: 40px;
+    padding: 0px;
+    margin-top: 90px;
+}
+
+.boxes-img:not(:first-child){
+    margin-left: 40px;
+    margin-right: 38px;
+    padding: 0px;
+    margin-top: 90px;
+}
+
+#jaracatia{
+    border-radius:8px;
+    background-color: rgb(84, 167, 84);
+    height: 275px;
+    width: 546px;
+    margin-left: 0.3px;
+    background-image: url("../images/imgJaracatia.png");
+}
+
+#jequitiba{
+    border-radius:8px;
+    background-color: rgb(84, 167, 84);
+    height: 275px;
+    width: 546px;
+    margin-left: 0.3px;
+    background-image: url("../images/imgEspeciePlantas.png");
+}
+
+
+#palmeira{
+    border-radius:8px;
+    background-color: rgb(84, 167, 84);
+    height: 275px;
+    width: 546px;
+    margin-left: 0.3px;
+    background-image: url("../images/imgPalmeira.png");
+}
+
+
+#uvaia{
+    border-radius:8px;
+    background-color: rgb(84, 167, 84);
+    height: 275px;
+    width: 546px;
+    margin-left: 0.3px;
+    background-image: url("../images/imgUvaia.png");
+}
+
+#p-inside{
+    margin-left: 16px;
+    margin-right: 2px;
+}
+
+.footer{
+    background: #265917;
+    width: 100%;
+    flex-shrink: 0;
+    margin-top: 0px;
+}
+
+.footer a{
+  color: white!important;
+}
+
+.textoFooter{
+    color: white;
+}
+
+.linksFooter{
+    color: white;
+}
+
+.linksFooter:link {
+    color: white;
+}
+
+.linksFooter:visited {
+    color: white;
+}
+
+.logosFooter{
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+}
+
+.linhaVertical{
+    height: 85px;/*Altura da linha*/
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    color: white;
+}
+
+.direitosReservados{
+    color: #F9F9F9;
+    font-size: 13px;
+}
+}
