@@ -27,6 +27,15 @@ a:hover {
     text-decoration: none!important;
 }
 
+header a:not(#logo, #entrar,#en a,#br a) {
+    border-bottom: 3px solid transparent; /* Set initial transparent underline */
+    transition: 0.3s ease; /* Add a smooth transition effect */
+}
+
+header a:not(#logo, #entrar,#en a,#br a):hover {
+    border-bottom: 3px solid #265917;
+}
+
 .navbar-logo{
     color: #265917;
     font-size: 16px;
