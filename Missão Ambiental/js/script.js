@@ -1,5 +1,5 @@
 let img = document.getElementById("image-switch");
-let imgs = ["./images/imgPessoal.png", "./images/imgAgroecologia.jpeg"];
+let imgs = ["./images/imgPessoal.png", "./images/imgProjetos.jpeg","./images/imgCaptacao.jpeg"];
 let currentIndex = 0;
 
 setInterval(function () {
