@@ -272,6 +272,10 @@ p{
     flex-grow: 1; 
 }
 
+#image-switch{
+    width: 2200px;
+    height: 500px;
+}
 
 
 .imgAtividades{
