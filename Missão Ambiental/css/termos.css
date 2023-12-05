@@ -310,7 +310,6 @@ button:hover{
 /* Main */
 
 #background-image {
-    background-image: url('../images/Abelhas.png');
     background-size: cover;
     background-position: center top;
     height: 320vh; 
