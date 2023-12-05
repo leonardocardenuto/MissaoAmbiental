@@ -149,7 +149,7 @@ button:hover{
 }
 
 #lang ul li:hover,#lang-en ul li:hover {
-    background-color: #f2f2f2;
+    background-color: #76d16e
 }
 
 #lang ul li a:before,#lang-en ul li a:before {

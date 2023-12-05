@@ -332,7 +332,7 @@ p:not(header p) {
 }
 
 #lang ul li:hover,#lang-en ul li:hover {
-    background-color: #f2f2f2;
+    background-color: #9cdb97
 }
 
 #lang ul li a:before,#lang-en ul li a:before {
