@@ -21,7 +21,7 @@
                 <h2>Termos de Serviço e Política de Privacidade</h2>
                 <p>Bem-vindo à nossa plataforma! Ao usar nossos serviços, você concorda em
                     cumprir os seguintes termos:</p>
-                    <div class="scrollable-box" onscroll="checkScroll()">
+                <div class="scrollable-box" onscroll="checkScroll()">
                     <h2>Termos e Condições de Uso</h2>
                     <ol>
                         <li>Este Termo se refere ao(à) DEV-TEAM. Ao navegar neste site e usar os
@@ -162,7 +162,7 @@
                     <p>Este Termo de Adequação à LGPD foi criado a partir de um modelo Rocket Lawyer (<a href="https://www.rocketlawyer.com/br/pt">https://www.rocketlawyer.com/br/pt</a>)</p>
                     <p>SÃO PAULO 05 de Dezembro de 2023.</p>
                 </div>
-                <button id="fecharButton" onclick="closePopup()" disabled>Fechar</button>
+                <button id="fecharButton" onclick="closePopup()" disabled="disabled">Fechar</button>
             </div>
             <!----------------------- Login Container -------------------------->
             <div class="borda row border shadow box-area">
@@ -180,31 +180,47 @@
                                     required="required"
                                     type="text"
                                     class="form-control form-control-lg"
-                                    placeholder="Nome">
+                                    placeholder="Nome"
+                                    oninvalid="setCustomValidity('Por favor, preencha o nome')"
+                                    oninput="setCustomValidity('')">
                             </div>
                             <div class="input-group mb-1">
                                 <input
                                     required="required"
                                     type="text"
                                     class="form-control form-control-lg"
-                                    placeholder="E-mail">
+                                    placeholder="E-mail"
+                                    oninvalid="setCustomValidity('Por favor, preencha o e-mail')"
+                                    oninput="setCustomValidity('')">
                             </div>
                             <div class="input-group mb-1">
                                 <input
                                     required="required"
                                     type="password"
                                     class="form-control form-control-lg"
-                                    placeholder="Senha">
+                                    placeholder="Senha"
+                                    oninvalid="setCustomValidity('Por favor, preencha a senha')"
+                                    oninput="setCustomValidity('')">
                             </div>
                             <div class="input-group mb-1">
                                 <input
                                     required="required"
                                     type="password"
                                     class="form-control form-control-lg"
-                                    placeholder="Confirmar senha">
+                                    placeholder="Confirmar senha"
+                                    oninvalid="setCustomValidity('Por favor, confirme a senha')"
+                                    oninput="setCustomValidity('')">
                             </div>
                             <div class="input-group mb-5">
-                                <input required="required" type="checkbox" name="termosDeUso" value="Termos" id="termosCheckbox" disabled>
+                                <input
+                                    required="required"
+                                    type="checkbox"
+                                    name="termosDeUso"
+                                    value="Termos"
+                                    id="termosCheckbox"
+                                    oninvalid="this.setCustomValidity('Marque caso concorde com os termos')" 
+                                    onchange="this.setCustomValidity('')"
+                                    disabled="disabled">
                                 <label id="termos" for="checkbox-round">Li e aceito os
                                     <a href="#" onclick="openPopup()">Termos de Uso & Políticas de Privacidade</a>
                                 </label>
