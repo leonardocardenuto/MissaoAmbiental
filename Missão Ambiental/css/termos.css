@@ -135,6 +135,17 @@ button:hover{
     padding: 0!important;
 }
 
+#background-image {
+    background-image: url('../images/abelhas.png');
+    background-size: cover;
+    background-position: center top;
+    height: 320vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
 
 #lang ul,#lang-en ul {
     padding: 0;
@@ -310,6 +321,7 @@ button:hover{
 /* Main */
 
 #background-image {
+    background-image: url('../images/abelhas.png');
     background-size: cover;
     background-position: center top;
     height: 320vh; 
