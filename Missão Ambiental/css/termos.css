@@ -11,12 +11,10 @@ html {
     padding: 0;
 }
 
-/* Add the following styles to your termos.css file or create a new CSS file */
-
 #paper {
     background-color: #fff;
     padding: 20px;
-    height: 95%; /* Set the height to 100% of the viewport height */
+    height: 95%; 
     width: 85%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -48,8 +46,8 @@ a:hover {
 }
 
 header a:not(#logo, #entrar,#en a,#br a) {
-    border-bottom: 3px solid transparent; /* Set initial transparent underline */
-    transition: 0.3s ease; /* Add a smooth transition effect */
+    border-bottom: 3px solid transparent; 
+    transition: 0.3s ease; 
 }
 
 header a:not(#logo, #entrar,#en a,#br a):hover {
@@ -62,8 +60,8 @@ header a:not(#logo, #entrar,#en a,#br a):hover {
 }
 
 .linhaVerticalNav{
-    height: 20px;/*Altura da linha*/
-    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    height: 20px;
+    border-left: 2px solid;
     color: #000;
 }
 
@@ -83,7 +81,7 @@ button:hover{
 /* Main */
 
 #background-image {
-    background-image: url('../images/Plantas.png');
+    background-image: url('../images/abelhas.png');
     background-size: cover;
     background-position: center top;
     height: 400vh; 
