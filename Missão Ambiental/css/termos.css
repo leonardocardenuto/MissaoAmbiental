@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Average&display=swap');
+
+#footer,header{
+    margin-left: 0!important;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add the following styles to your termos.css file or create a new CSS file */
+
+#paper {
+    background-color: #fff;
+    padding: 20px;
+    height: 95%; /* Set the height to 100% of the viewport height */
+    width: 85%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+#paper p,#paper  h2,#paper  li{
+    margin-top: 20px;
+}
+
+
+/* Header */
+a:link {
+    color: #000!important;
+    text-decoration: none!important;
+}
+
+a:visited {
+    color: #000!important;
+    text-decoration: none!important;
+}
+
+a:hover {
+    color: #000!important;
+    text-decoration: none!important;
+}
+
+header a:not(#logo, #entrar,#en a,#br a) {
+    border-bottom: 3px solid transparent; /* Set initial transparent underline */
+    transition: 0.3s ease; /* Add a smooth transition effect */
+}
+
+header a:not(#logo, #entrar,#en a,#br a):hover {
+    border-bottom: 3px solid #265917;
+}
+
+.navbar-logo{
+    color: #265917;
+    font-size: 16px;
+}
+
+.linhaVerticalNav{
+    height: 20px;/*Altura da linha*/
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    color: #000;
+}
+
+.botaoVerde {
+    color: #fff;
+    padding: 9px 25px;
+    background-color: #265917;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: #5DB256
+}
+/* Main */
+
+#background-image {
+    background-image: url('../images/Plantas.png');
+    background-size: cover;
+    background-position: center top;
+    height: 400vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+
+#lang {
+    width: 78px;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 5px;
+    position:relative
+}
+
+#lang-en {
+    width: 80px;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 5px;
+    position:relative
+}
+
+#lang-en .selected-lang{
+    display: flex;   
+    justify-content: space-between;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+#lang .selected-lang{
+    display: flex;   
+    justify-content: space-between;
+    line-height: 2;
+    cursor: pointer;
+}
+
+#lang-en .selected-lang:before  {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(https://flagsapi.com/US/flat/32.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#lang .selected-lang:before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(https://flagsapi.com/BR/flat/32.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.selected-lang{
+    margin: 0!important;
+    padding: 0!important;
+}
+
+
+#lang ul,#lang-en ul {
+    padding: 0;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #f8f8f8;
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    right: 30px;
+    width: 125px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#lang ul li,#lang-en ul li {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+#lang ul li a,#lang-en ul li a {
+    text-decoration: none;
+    width: 125px;
+    padding: 5px 10px;
+    display: block;
+}
+
+#lang ul li:hover,#lang-en ul li:hover {
+    background-color: #9cdb97
+}
+
+#lang ul li a:before,#lang-en ul li a:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#lang ul li a.en:before,#lang-en ul li a.en:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-image: url(https://flagsapi.com/US/flat/32.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#lang ul li a.br:before,#lang-en ul li a.br:before{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-image: url(https://flagsapi.com/BR/flat/32.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#lang:hover ul,#lang-en:hover ul {
+    display:block;
+}
+
+/* Footer */
+.footer{
+    background: #265917;
+    width: 100%;
+    height: 100px;
+    flex-shrink: 0;
+    margin-top: 0px;
+}
+
+.footer a{
+  color: white!important;
+}
+
+.textoFooter{
+    color: white;
+}
+
+.linksFooter{
+    color: white;
+}
+
+.linksFooter:link {
+    color: white;
+}
+
+.linksFooter:visited {
+    color: white;
+}
+
+.logosFooter{
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+}
+
+.linhaVertical{
+    height: 85px;/*Altura da linha*/
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    color: white;
+}
+
+.direitosReservados{
+    color: #F9F9F9;
+    font-size: 13px;
+}
+
+@media (min-width: 1400px) and (max-width: 2000px) {
+
+#footer,header{
+    margin-left: 0!important;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+a:link {
+    color: #000!important;
+    text-decoration: none!important;
+}
+
+a:visited {
+    color: #000!important;
+    text-decoration: none!important;
+}
+
+a:hover {
+    color: #000!important;
+    text-decoration: none!important;
+}
+
+.navbar-logo{
+    color: #265917;
+    font-size: 16px;
+}
+
+.linhaVerticalNav{
+    height: 20px;/*Altura da linha*/
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    color: #000;
+}
+
+.botaoVerde {
+    color: #fff;
+    padding: 9px 25px;
+    background-color: #265917;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: #5DB256
+}
+/* Main */
+
+#background-image {
+    background-image: url('../images/Abelhas.png');
+    background-size: cover;
+    background-position: center top;
+    height: 320vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+
+
+/* Footer */
+.footer{
+    background: #265917;
+    width: 100%;
+    height: 100px;
+    flex-shrink: 0;
+    margin-top: 0px;
+}
+
+.footer a{
+  color: white!important;
+}
+
+.textoFooter{
+    color: white;
+}
+
+.linksFooter{
+    color: white;
+}
+
+.linksFooter:link {
+    color: white;
+}
+
+.linksFooter:visited {
+    color: white;
+}
+
+.logosFooter{
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+}
+
+.linhaVertical{
+    height: 85px;/*Altura da linha*/
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    color: white;
+}
+
+.direitosReservados{
+    color: #F9F9F9;
+    font-size: 13px;
+}
+}
