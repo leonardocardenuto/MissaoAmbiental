@@ -80,18 +80,6 @@ button:hover{
 }
 /* Main */
 
-#background-image {
-    background-size: cover;
-    background-position: center top;
-    height: 400vh; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
-}
-
-
 #lang {
     width: 78px;
     text-align: right;
@@ -332,8 +320,6 @@ button:hover{
     align-items: center;
     margin: 0px;
 }
-
-
 
 /* Footer */
 .footer{
