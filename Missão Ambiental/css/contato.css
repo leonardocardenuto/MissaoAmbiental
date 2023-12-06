@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Average&display=swap');
+
+#footer,header{
+    margin-left: 0!important;
+}
+
+/* Header */
+a:link {
+    color: #000!important;
+    text-decoration: none!important;
+}
+
+a:visited {
+    color: #000!important;
+    text-decoration: none!important;
+}
+
+a:hover {
+    color: #000!important;
+    text-decoration: none!important;
+}
+
+header a:not(#logo, #entrar,#en a,#br a) {
+    border-bottom: 3px solid transparent; /* Set initial transparent underline */
+    transition: 0.3s ease; /* Add a smooth transition effect */
+}
+
+header a:not(#logo, #entrar,#en a,#br a):hover {
+    border-bottom: 3px solid #265917;
+}
+
+.navbar-logo{
+    color: #265917;
+    font-size: 16px;
+}
+
+.linhaVerticalNav{
+    height: 20px;/*Altura da linha*/
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    color: #000;
+}
+
+.botaoVerde {
+    color: #fff;
+    padding: 9px 25px;
+    background-color: #265917;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: #5DB256
+}
+
+#lang {
+    width: 78px;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 5px;
+    position:relative
+}
+
+#lang-en {
+    width: 80px;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 5px;
+    position:relative
+}
+
+#lang-en .selected-lang{
+    display: flex;   
+    justify-content: space-between;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+#lang .selected-lang{
+    display: flex;   
+    justify-content: space-between;
+    line-height: 2;
+    cursor: pointer;
+}
+
+#lang-en .selected-lang:before  {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(https://flagsapi.com/US/flat/32.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#lang .selected-lang:before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(https://flagsapi.com/BR/flat/32.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.selected-lang{
+    margin: 0!important;
+    padding: 0!important;
+}
+
+
+#lang ul,#lang-en ul {
+    padding: 0;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #f8f8f8;
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    right: 30px;
+    width: 125px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#lang ul li,#lang-en ul li {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+#lang ul li a,#lang-en ul li a {
+    text-decoration: none;
+    width: 125px;
+    padding: 5px 10px;
+    display: block;
+}
+
+#lang ul li:hover,#lang-en ul li:hover {
+    background-color: #f2f2f2;
+}
+
+#lang ul li a:before,#lang-en ul li a:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#lang ul li a.en:before,#lang-en ul li a.en:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-image: url(https://flagsapi.com/US/flat/32.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#lang ul li a.br:before,#lang-en ul li a.br:before{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-image: url(https://flagsapi.com/BR/flat/32.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#lang:hover ul,#lang-en:hover ul {
+    display:block;
+}
+
+
+.figura{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.figura-item{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.texto-img{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 10px;
+    font-size: 50px;
+}
+
+@media (max-width: 600px){
+    .texto-img{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        padding-top: 1%;
+        padding-left: 10px;
+        font-size: 30px;
+    }
+}
+@media (max-width: 370px){
+    .texto-img{
+        justify-content: start;
+        align-items: start;
+        padding-top: 0px;
+        padding-left: 0px;
+        font-size: 30px;
+    }
+}
+
+.desc-texto-img {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-top: auto;
+    padding-left: 10px;
+    font-size: 19px;
+}
+
+.conteudo {
+    padding-top: 30px;
+    transform: translateX(1.2%);
+
+}
+
+.redes {
+    position: flex;
+    margin-right: 80px;
+}
+
+.icon {
+    font-size: 30px;
+    color: black;
+    position: flex;
+    transform: translateY(23%);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.link {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
