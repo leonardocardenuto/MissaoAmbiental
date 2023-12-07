@@ -13,17 +13,17 @@ body{
 }
 
 /* Header */
-a:link {
+a:link:not(#parceirosTexto a) {
     color: #000!important;
     text-decoration: none!important;
 }
 
-a:visited {
+a:visited:not(#parceirosTexto a) {
     color: #000!important;
     text-decoration: none!important;
 }
 
-a:hover {
+a:hover:not(#parceirosTexto a) {
     color: #000!important;
     text-decoration: none!important;
 }
@@ -238,6 +238,10 @@ button:hover{
 }
 
 /* Body */
+.textDoar p{
+    font-size: 28px;
+    font-weight:600;
+}
 
 p{
     color: #000;
