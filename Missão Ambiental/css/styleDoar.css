@@ -251,6 +251,7 @@ h2{
     height: 80px;/*Altura da linha*/
     border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
     color: #000;
+    right: -9%;
 }
 
 /* Footer */
