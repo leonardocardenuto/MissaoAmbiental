@@ -212,14 +212,14 @@ p{
 h1{
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
-    margin-top: 20px!important;
+    margin-top: 8px!important;
     margin-left: 0px!important;
 }
 
 h2{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    margin-top: 10px!important;
+    margin-top: 20px!important;
 }
 
 .botaoDoacoes{
@@ -248,7 +248,7 @@ h2{
 }
 
 .linhaVerticalDoacaoMonetaria{
-    height: 80px;/*Altura da linha*/
+    height: 100px;/*Altura da linha*/
     border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
     color: #000;
     right: -9%;
