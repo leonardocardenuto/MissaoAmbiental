@@ -18,12 +18,12 @@ a:link:not(#parceirosTexto a,footer p, footer a) {
     text-decoration: none!important;
 }
 
-a:visited:not(#parceirosTexto a) {
+a:visited:not(#parceirosTexto a,footer a) {
     color: #000!important;
     text-decoration: none!important;
 }
 
-a:hover:not(#parceirosTexto a) {
+a:hover:not(#parceirosTexto a,footer a) {
     color: #000!important;
     text-decoration: none!important;
 }
