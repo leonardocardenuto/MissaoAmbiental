@@ -403,7 +403,7 @@ button:hover{
     background-image: url('../images/Plantas.png');
     background-size: cover;
     background-position: center top;
-    height: 220vh; 
+    height: 280vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
