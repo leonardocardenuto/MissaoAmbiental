@@ -324,7 +324,7 @@ button:hover{
     background-image: url('../images/abelhas.png');
     background-size: cover;
     background-position: center top;
-    height: 320vh; 
+    height: 450vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
