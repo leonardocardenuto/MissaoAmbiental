@@ -7,7 +7,7 @@ setInterval(function () {
   currentIndex = (currentIndex + 1) % imgs.length;
 }, 8000);
 
-var buttonClicked = false;
+// var buttonClicked = false;
 
         function openPopup() {
             document.getElementById('overlay').style.display = 'block';
@@ -21,12 +21,12 @@ var buttonClicked = false;
             document.getElementById('termosCheckbox').disabled = !buttonClicked;
         }
 
-        function checkScroll() {
-            var scrollableBox = document.querySelector('.scrollable-box');
-            var closeButton = document.getElementById('fecharButton');
-            if (scrollableBox.scrollHeight - scrollableBox.scrollTop === scrollableBox.clientHeight) {
-                closeButton.disabled = false;
-            } else {
-                closeButton.disabled = true;
-            }
-        }
+        // function checkScroll() {
+        //     var scrollableBox = document.querySelector('.scrollable-box');
+        //     var closeButton = document.getElementById('fecharButton');
+        //     if (scrollableBox.scrollHeight - scrollableBox.scrollTop === scrollableBox.clientHeight) {
+        //         closeButton.disabled = false;
+        //     } else {
+        //         closeButton.disabled = true;
+        //     }
+        // }
